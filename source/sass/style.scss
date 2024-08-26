@@ -1,3 +1,4 @@
+// Vendor
 // ---------------------------------
 
 @import "vendor/normalize";
@@ -10,17 +11,21 @@
 @import "global/reboot";
 @import "global/utils";
 @import "global/container";
+
+// Blocks
+// ---------------------------------
+@import "blocks/wrapper";
+@import "blocks/btn";
+@import "blocks/slider-btns";
+@import "blocks/section-title";
 @import "blocks/page-header";
 @import "blocks/nav";
 @import "blocks/hero";
 @import "blocks/hero-slide";
-@import "blocks/btn";
 @import "blocks/tours";
 @import "blocks/tours-slide";
-@import "blocks/section-title";
 @import "blocks/training";
 @import "blocks/training-slide";
-@import "blocks/slider-btns";
 @import "blocks/about";
 @import "blocks/reviews";
 @import "blocks/reviews-slide";
@@ -32,4 +37,4 @@
 @import "blocks/contacts";
 @import "blocks/map";
 @import "blocks/page-footer";
-@import "blocks/wrapper";
+@import "blocks/social";
